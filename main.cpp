@@ -39,7 +39,7 @@ int main() {
         choice = main_menu();
         switch (choice) {
             case CORRUPT: {
-                printf("Das scheint keine Zahl gewesen zu sein.");
+                cout<<"Das scheint keine Zahl gewesen zu sein."<<;
                 break;
             }
             case EINFUEGEN: {
@@ -57,7 +57,7 @@ int main() {
             case TERMINATE: {
                 return 0;
             }
-            default:printf("Da ist etwas schief gelaufen beim Einlesen.\n");
+            default:cout <<"Da ist etwas schief gelaufen beim Einlesen.\n"<<;
         }
     }
 }
